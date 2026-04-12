@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+@media (max-width: 768px) {
+  .card {
+    flex: 0 0 calc(50% - 1.2rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    flex: 0 0 100%;
+  }
+}
+:root {
+  --bg:          #f5f0e8;
+  --accent-soft: #e8d5d0;
+  --font:         #1a1208;
+  --font-mid:     #4a3f30;
+  --font-light:   #8a7a68;
+  --rule:        #d4c9b8;
+  --link:        #8b2500;
+  --link-hover:  #c0392b;
+  --highlight:    #ffc61a;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--font);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  padding: 0;
+  min-height: 100vh;
+}
+
+body > *:not(.top-heading) {
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+img
+{
+  height: 50%;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 2rem 0 1.5rem;
+  clear: both;
+}
+
+
+
