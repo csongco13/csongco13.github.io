@@ -117,3 +117,16 @@ header > .top-heading {
     animation-delay: 0.5s !important;
   }
 }
+
+.hobby-top-heading
+{
+  align-items: center;
+  text-align: center;
+  padding-left: 10px;
+  margin-top: 50px;
+}
+.hobby-top-heading>*
+{
+  margin-top: 10px;;
+}
+
